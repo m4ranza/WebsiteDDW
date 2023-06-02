@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <title>Maranza Shop</title>
+    <link rel="stylesheet" href="csspages/customer_reccomandation.css">
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to main content</a>
+        <img src="../images-audio/logo.png" width="200" alt="Logo">
+        <hr>
+        <nav>
+            <p>
+                <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="about_us.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="items_sold.html">Items Sold</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contact_us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                Customer Recommendations
+            </p>
+        </nav>
+        <hr><br>
+    </header>
+    <main id="main">
+        <h1><u>Customer Reccomandation</u></h1>
+        <form action="submit">
+        <fieldset>
+            <legend><h2>Share a review!</h2></legend>
+            <label for="fname"><b>First Name</b></label><br>
+            <input type="text" id="fname" required><br><br>
+            <label for="lname"><b>Last Name</b></label><br>
+            <input type="text" id="lname" required><br><br>
+            <label for="int"><b>Product</b></label><br>
+            <select name="product" id="int">
+                <option value="levi's">Levi's Scott M 229800-750-59 shoes black</option>
+                <option value="adidas">Adidas Breaknet Shoes</option>
+                <option value="nike">Lil Nas X Nike 97</option>
+                <option value="fila">Fila Women’s Disruptor Premium 2 Sneaker</option>
+            </select><br><br>
+            <label for="rating"><b>Rating</b></label><br>
+            <input type="radio" name="rating" value="1" id="rating" required>&star;&nbsp;
+            <input type="radio" name="rating" value="2">&star;&star;&nbsp;
+            <input type="radio" name="rating" value="3">&star;&star;&star;&nbsp;
+            <input type="radio" name="rating" value="4">&star;&star;&star;&star;&nbsp;
+            <input type="radio" name="rating" value="5">&star;&star;&star;&star;&star;
+            <br><br>
+            <label for="review"><b>Review</b></label><br>
+            <input type="text" id="review" required><br><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <br><hr>
+        <strong>&copy; 2021 - All rights reserved - Maranza Shop</strong>
+    </footer>
+</body>
+</html>
